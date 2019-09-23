@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace UCNL_FWUpdate.Properties
+namespace UCNL_FW_Update.Properties
 {
 
 

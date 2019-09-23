@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("UCNL_FWUpdate")]
-[assembly: AssemblyDescription("UC&NL firmware update utility")]
+[assembly: AssemblyTitle("UCNL_FW_Update")]
+[assembly: AssemblyDescription("UCNL Devices firmware update utility")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Underwater communication & navigation laboratory, LLC")]
-[assembly: AssemblyProduct("UCNL_FWUpdate")]
-[assembly: AssemblyCopyright("Copyright ©  2017 Underwater communication & navigation laboratory")]
-[assembly: AssemblyTrademark("Underwater communication & navigation laboratory")]
+[assembly: AssemblyProduct("UCNL_FW_Update")]
+[assembly: AssemblyCopyright("Copyright © UC&NL 2018")]
+[assembly: AssemblyTrademark("UC&NL")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("aca4d7b6-11a3-4c87-8ef0-10933bceb707")]
+[assembly: Guid("d8baa911-a259-4564-a6cd-c5b67f30ed6a")]
 
 // Version information for an assembly consists of the following four values:
 //
