@@ -163,6 +163,7 @@ namespace UCNL_FW_Update
                 nmeaPort.SendData(cmdStr);
                 result = true;
                 timer.Start();
+                InvokeWriteLogString(string.Format(">> {0}", cmdStr));
             }
             catch (Exception ex)
             {
@@ -183,6 +184,7 @@ namespace UCNL_FW_Update
             {
                 nmeaPort.SendData(cmdStr);
                 timer.Start();
+                InvokeWriteLogString(string.Format(">> {0}", cmdStr));
                 result = true;
             }
             catch (Exception ex)
@@ -403,7 +405,7 @@ namespace UCNL_FW_Update
             
             try
             {
-                nmeaPort.Open();                
+                nmeaPort.Open();
             }
             catch (Exception ex)
             {
@@ -526,6 +528,8 @@ namespace UCNL_FW_Update
         {
             NMEAProprietarySentence nmeaMsg = new NMEAProprietarySentence();
             bool isParsed = false;
+
+            InvokeWriteLogString(string.Format("<< {0}", e.Message));
 
             #region try parse
 
